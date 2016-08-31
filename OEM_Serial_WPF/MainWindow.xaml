@@ -1,0 +1,39 @@
+﻿<Window x:Class="OEM_Serial_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OEM_Serial_WPF"
+        mc:Ignorable="d"
+        Title="OEM Serial Example" Height="350" Width="756">
+    <Grid>
+        <Button x:Name="button_Connect" Content="Connect" HorizontalAlignment="Left" Margin="10,20,0,0" VerticalAlignment="Top" Width="100" Height="30" IsEnabled="False" Click="button_Connect_Click"/>
+        <Button x:Name="button_Refresh" Content="Refresh" HorizontalAlignment="Left" Margin="115,20,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="button_Refresh_Click"/>
+        <ComboBox x:Name="comboBox_PortList" HorizontalAlignment="Left" Margin="10,55,0,0" VerticalAlignment="Top" Width="205" Height="30" SelectionChanged="comboBox_SelectionChanged"/>
+        <Separator HorizontalAlignment="Left" Height="7" Margin="10,90,0,0" VerticalAlignment="Top" Width="205"/>
+        <GroupBox x:Name="groupBox_IntegrationTime" Header="Integration Time" HorizontalAlignment="Left" Margin="10,102,0,0" VerticalAlignment="Top" Height="60" Width="205">
+            <Grid HorizontalAlignment="Left" Margin="0,0,-2,0" VerticalAlignment="Top" Width="195" Height="40">
+                <Button x:Name="button_getIntegrationTime" Content="Get" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"  Width="40" Height="20" Click="button_getIntegrationTime_Click"/>
+                <Button x:Name="button_setIntegrationTime" Content="Set" HorizontalAlignment="Left" Margin="55,10,0,0" VerticalAlignment="Top"  Width="40" Height="20" Click="button_setIntegrationTime_Click"/>
+                <TextBox x:Name="textBox_integrationTime" HorizontalAlignment="Left" Height="20" Margin="100,10,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="85" PreviewTextInput="IsTextAllowed"/>
+            </Grid>
+        </GroupBox>
+        <Button x:Name="button_Ping" Content="Ping Device" HorizontalAlignment="Left" Margin="10,167,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="button_Ping_Click"/>
+        <Button x:Name="button_Acquire" Content="Acq. Spectrum" HorizontalAlignment="Left" Margin="115,167,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="button_Acquire_Click"/>
+        <Button x:Name="button_FirmwareRev" Content="Firmware Rev" HorizontalAlignment="Left" Margin="10,202,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="button_FirmwareRev_Click"/>
+        <Button x:Name="button_FpgaRev" Content="FPGA Rev" HorizontalAlignment="Left" Margin="115,202,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="button_FpgaRev_Click"/>
+        
+        <Label x:Name="label_Output" Content="Output" HorizontalAlignment="Left" Margin="220,20,0,0" VerticalAlignment="Top" Width="387"/>
+        <TextBox 
+            x:Name="textBox_Output" 
+            HorizontalAlignment="Left" 
+            Height="258" Width="518" 
+            Margin="220,51,0,0" 
+            TextWrapping="Wrap" 
+            Text="" 
+            VerticalAlignment="Top"
+            IsReadOnly="True"
+            ScrollViewer.VerticalScrollBarVisibility="Visible" TextChanged="textBox_Output_TextChanged"/>
+
+    </Grid>
+</Window>

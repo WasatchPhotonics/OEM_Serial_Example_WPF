@@ -1,0 +1,14 @@
+c:\users\jason\documents\visual studio 2015\Projects\OEM_Serial_WPF\OEM_Serial_WPF\bin\Debug\OEM_Serial_WPF.exe.config
+c:\users\jason\documents\visual studio 2015\Projects\OEM_Serial_WPF\OEM_Serial_WPF\bin\Debug\OEM_Serial_WPF.exe
+c:\users\jason\documents\visual studio 2015\Projects\OEM_Serial_WPF\OEM_Serial_WPF\bin\Debug\OEM_Serial_WPF.pdb
+c:\users\jason\documents\visual studio 2015\Projects\OEM_Serial_WPF\OEM_Serial_WPF\obj\Debug\OEM_Serial_WPF.csprojResolveAssemblyReference.cache
+c:\users\jason\documents\visual studio 2015\Projects\OEM_Serial_WPF\OEM_Serial_WPF\obj\Debug\MainWindow.g.cs
+c:\users\jason\documents\visual studio 2015\Projects\OEM_Serial_WPF\OEM_Serial_WPF\obj\Debug\App.g.cs
+c:\users\jason\documents\visual studio 2015\Projects\OEM_Serial_WPF\OEM_Serial_WPF\obj\Debug\OEM_Serial_WPF_MarkupCompile.cache
+c:\users\jason\documents\visual studio 2015\Projects\OEM_Serial_WPF\OEM_Serial_WPF\obj\Debug\OEM_Serial_WPF_MarkupCompile.lref
+c:\users\jason\documents\visual studio 2015\Projects\OEM_Serial_WPF\OEM_Serial_WPF\obj\Debug\MainWindow.baml
+c:\users\jason\documents\visual studio 2015\Projects\OEM_Serial_WPF\OEM_Serial_WPF\obj\Debug\OEM_Serial_WPF.g.resources
+c:\users\jason\documents\visual studio 2015\Projects\OEM_Serial_WPF\OEM_Serial_WPF\obj\Debug\OEM_Serial_WPF.Properties.Resources.resources
+c:\users\jason\documents\visual studio 2015\Projects\OEM_Serial_WPF\OEM_Serial_WPF\obj\Debug\OEM_Serial_WPF.csproj.GenerateResource.Cache
+c:\users\jason\documents\visual studio 2015\Projects\OEM_Serial_WPF\OEM_Serial_WPF\obj\Debug\OEM_Serial_WPF.exe
+c:\users\jason\documents\visual studio 2015\Projects\OEM_Serial_WPF\OEM_Serial_WPF\obj\Debug\OEM_Serial_WPF.pdb
